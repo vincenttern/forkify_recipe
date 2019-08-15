@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,8 @@
     "axios": "^0.19.0",
     "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
+    "homepage": "https://vincenttern.github.io/forkity_recipe",
+    "gh-pages": "^2.1.1",
     "uniqid": "^5.0.3"
   }
 }
