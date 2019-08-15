@@ -43,7 +43,7 @@ const controlSearch = async () => {
             searchView.renderResults(state.search.result);
 
         } catch (error) {
-            alert('Something went wrong getting search results!');
+            alert('Sorry there were too many requests today. Please try again tomorrow.');
             clearLoader();
         }
 
